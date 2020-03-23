@@ -10,8 +10,7 @@ $(document).ready(function(){
         var i = movie[0];
         var n = movie[1];
         var d = movie[2];
-        var e = movie[3];
-        var movieobjet = createMovie(i,n,d,e);
+        var movieobjet = createMovie(i,n,d);
         $('#list').append(htmlDivElement(movieobjet));
         createPlayCallback(movieobjet);
         
@@ -95,12 +94,11 @@ console.log('lecture du film :'+movie.name+' , index='+ movie.index);
 });
 }
  
-function createMovie(i, n, d, e){
+function createMovie(i, n, d                                                                                                  ){
   var movie = {};
   movie.name = n;
-  movie.index = i;
+  movie.index = i;     
   movie.duree = d;
-  movie.note = e;
   return movie;
 }
 
