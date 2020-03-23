@@ -1,26 +1,5 @@
-.divFilm{
-    display: flex;
-    width: 90%;
-    height: 100px;
-    background-color: rgb(235, 235, 235);
-    margin: 5px;
-    
-
+body{
+	background-color: rgb(87, 19, 19);
+    text-align: center;
+    font-family: cursive;
 }
-
-.divIndex{
-    
-    margin: 4px;
-
-}
-
-.divTitle{
-    margin: 4px;
-}
-
-
-.playButton{
-    width: 50px;
-    height: 20px;
-}
-
