@@ -24,7 +24,6 @@ function htmlDivElement(movie){// completer le code ici
   `+movie.name+'('+movie.duree+')'+`
   </div>
   </div>`;
-  
   return html;
 }
 function createMovie(i, n, d){
